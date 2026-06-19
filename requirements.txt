@@ -1,0 +1,10 @@
+transformers
+datasets
+peft
+trl
+bitsandbytes
+accelerate
+huggingface_hub
+evaluate
+rouge_score
+pyyaml

@@ -1,0 +1,6 @@
+env/
+__pycache__/
+*.pyc
+mistral-7b-finetuned/
+mistral-7b-merged/
+.env
