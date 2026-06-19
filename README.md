@@ -21,11 +21,11 @@ Fine-tuning pipeline for Mistral-7B on medical Q&A using QLoRA on Google Colab.
 - LoRA rank: 16, alpha: 32
 
 ## Quick Start
-pip install transformers peft
-
+```python
 from peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model = AutoModelForCausalLM.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
 model = PeftModel.from_pretrained(model, "AbhijithSK/mistral-7b-medical-instruct")
 tokenizer = AutoTokenizer.from_pretrained("AbhijithSK/mistral-7b-medical-instruct")
+```
